@@ -10,7 +10,7 @@ def q2():
   print(inp != 0)
 
 def q3():
-  num = flaot(input("Enter a number: "))
+  num = float(input("Enter a number: "))
   print(num >= 0 and num <= 10)
 def q4():
   food = input("Input food: ")
