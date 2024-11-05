@@ -10,9 +10,8 @@ def q2():
   print(inp != 0)
 
 def q3():
-  num = input("Enter a number: ")
-  num = int(num)
-  print(0 <= num <= 10)
+  num = flaot(input("Enter a number: "))
+  print(num <= 10 and num >= 0)
 def q4():
   food = input("Input food: ")
   drink = input("Input drink: ")
