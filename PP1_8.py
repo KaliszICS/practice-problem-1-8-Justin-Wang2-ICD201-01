@@ -7,7 +7,7 @@ def q1():
 def q2():
   inp = input("Enter an integer: ")
   inp = int(inp)
-  print(0 < inp > 0)
+  print(inp != 0)
 
 def q3():
   num = input("Enter a number: ")
