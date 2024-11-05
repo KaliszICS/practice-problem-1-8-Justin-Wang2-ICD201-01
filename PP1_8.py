@@ -11,11 +11,11 @@ def q2():
 
 def q3():
   num = flaot(input("Enter a number: "))
-  print(num <= 10 and num >= 0)
+  print(num >= 0 and num <= 10)
 def q4():
   food = input("Input food: ")
   drink = input("Input drink: ")
-  print(not food == "pizza" or not drink == "drink")
+  print(not food == "pizza" or not drink == "pop")
 
 def q5():
   num = input("Enter an integer: ")
